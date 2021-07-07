@@ -4,19 +4,24 @@ body {
     margin: 0;
 }
 
-h1 {
+.top-head {
     font-size: 50px;
     transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
 }
 
-.font-color {
+#font-color {
     color: darkgoldenrod;
 }
 
-section {
+#desc {
+    color: crimson;
+}
+
+.flex-container {
     display: flex;
+    margin-bottom: 15px;
 }
 
 .half-width {
@@ -26,6 +31,12 @@ section {
 
 .half-width img {
     width: 100%;
+}
+
+#dream-img {
+    margin-left: 2px;
+    border: 5px solid darkgray;
+    border-radius: 5px;
 }
 
 .box-btn {
@@ -42,4 +53,45 @@ section {
 .top-banner {
     background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.experiences {
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#exp-head {
+    text-align: center;
+}
+
+.experience-area {
+    width: 30%;
+    box-shadow: 5px 5px 30px darkgrey;
+    padding: 10px;
+    margin: 2%;
+}
+
+.exp-div {
+    display: flex;
+}
+
+#fullstack {
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#django {
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, cyan, tomato);
+    border-image-slice: 1;
+}
+
+#dbms {
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, darkblue, tomato);
+    border-image-slice: 1;
 }
